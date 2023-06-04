@@ -1,0 +1,122 @@
+.hero {
+  width: 100vw;
+  height: 60vh;
+  background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 30px;
+    padding: 20px;
+
+    .left {
+      padding-left: 10px;
+
+      .mobileIcon {
+        font-size: 14px;
+      }
+
+      span {
+        color: white;
+        cursor: pointer;
+      }
+    }
+
+    .right {
+      padding-left: 10px;
+
+      span {
+        padding: 20px;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+      }
+
+      .navLink {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+
+    img {
+      width: 280px;
+    }
+
+    h1 {
+      color: white;
+      padding: 40px 0;
+      font-weight: normal;
+    }
+  }
+
+  .searchWrapper {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: 650px;
+    height: 60px;
+    border-radius: 5px;
+
+    .locationSearch {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-left: 8px;
+      border-right: 2px solid gray;
+
+      .locationIcon {
+        text-align: center;
+        font-size: 24px;
+        color: rgb(230, 70, 96);
+      }
+
+      .locationInput {
+        padding: 8px;
+        border: none;
+        outline: none;
+        font-size: 16px;
+      }
+    }
+
+    .searchBar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-left: 8px;
+    }
+
+    .arrowIcon {
+      font-size: 24px;
+      margin-right: 10px;
+    }
+  }
+
+  .searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .searchIcon {
+      margin-left: 10px;
+    }
+
+    .searchInput {
+      width: 300px;
+      padding: 8px;
+      border: none;
+      outline: none;
+      font-size: 16px;
+    }
+  }
+}

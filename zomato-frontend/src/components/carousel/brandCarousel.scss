@@ -1,0 +1,83 @@
+.brandCarousel {
+  height: 350px;
+
+  .brandContainer {
+    max-width: 1200px;
+    min-width: 1200px;
+    margin: 0 150px;
+    position: relative;
+    padding-top: 50px;
+    left: 31px;
+
+    h2 {
+      font-size: 32px;
+      font-weight: 600;
+    }
+
+    .arrowBack {
+      width: 28px;
+      height: 28px;
+      background-color: rgb(255, 255, 255);
+      border-radius: 50%;
+      position: absolute;
+      top: 180px;
+      left: 8px;
+      cursor: pointer;
+
+      .arrowIcon {
+        margin: 4px 0 0 4px;
+        font-size: 20px;
+      }
+    }
+
+    .arrowForward {
+      width: 28px;
+      height: 28px;
+      background-color: rgb(255, 255, 255);
+      border-radius: 50%;
+      position: absolute;
+      top: 180px;
+      right: 10px;
+      z-index: 10000;
+      cursor: pointer;
+
+      .arrowIcon {
+        margin: 4px 0 0 4px;
+        font-size: 20px;
+      }
+    }
+
+    .itemContainer {
+      display: flex;
+      align-items: center;
+      margin-top: 25px;
+
+      .imgContainer {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          width: 150px;
+          height: 150px;
+          border-radius: 10px;
+        }
+
+        h3 {
+          margin-top: 10px;
+          text-align: center;
+          font-weight: normal;
+        }
+
+        h4 {
+          font-weight: normal;
+          margin-top: 10px;
+          text-align: center;
+          font-weight: normal;
+        }
+      }
+    }
+  }
+}

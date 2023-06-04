@@ -1,0 +1,23 @@
+.muiAccordion {
+  max-width: 1200px;
+  min-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 50px;
+  left: 31px;
+
+  h2 {
+    font-size: 32px;
+    padding-top: 60px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  .accordion {
+    margin-bottom: 20px;
+
+    span {
+      padding: 10px;
+    }
+  }
+}
